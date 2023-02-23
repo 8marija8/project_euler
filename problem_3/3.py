@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 
 The prime factors of 13195 are 5, 7, 13 and 29.
@@ -9,6 +10,8 @@ What is the largest prime factor of the number 600851475143 ?
 
 
 
+=======
+>>>>>>> b4111ba430cb19aeea9450e7af34b151a07d8b9f
 import math
 
 
