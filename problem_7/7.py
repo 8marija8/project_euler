@@ -1,54 +1,38 @@
+"""
+
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+
+What is the 10 001st prime number?
 
 """
+
+
+
+
+x = 1
 
 prime_numbers = []
-x = -1
+not_prime = []
 
-while len(prime_numbers) != 10_001:
+while len(prime_numbers) != 10001:
+    x += 1
+    for j in range(2, x+1):
 
-  x += 1
-  prime_numbers.clear()
+      
+      
+      if x % j == 0 and x == j and x not in not_prime:
+           prime_numbers.append(x)
 
-  for i in range(x):
-
-    prime_numbers.append(1)
-
-    if  i %
-
-
-
+      elif x % j == 0 and x != j: 
+          not_prime.append(x)
+          break
+          
+         
+      
 
 
-
+print("prime", prime_numbers)
 print(prime_numbers[10_000])
-
-"""
-
-
-
-y = 50
-
-primes = []
-
-for num in range(1, y+1):
-  if y / num == 1 or y / num == y: #  FIX THIS
-    primes.append(num)
-
-if len(primes) == 2:
-  print("prime number")
-  print(primes)
-else:
-  print("not prime number")
-  print(primes)
-
-
-
-
-
-
-
-
-
 
 
 
