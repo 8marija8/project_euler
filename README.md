@@ -8,7 +8,7 @@ Project Euler is a series of challenging problems that require creative problem-
 
 ## Goals
 
-- :white_square_button: solve 10 problems
+- :heavy_check_mark: solve 10 problems (2/3/2023)
 - :white_square_button: solve 20 problems
 - :white_large_square: solve 25 problems
 - :white_square_button: solve 30 problems
