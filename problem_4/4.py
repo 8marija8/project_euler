@@ -7,22 +7,17 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 """
 
-
-palindromes = []
-
-for i in range(999,0,-1):
-    for j in range(999,0,-1):
-        
-        product = str(i*j)
-        reverse = product[::-1]
-
-        if product == reverse:
-            
-            product = int(product)
-            palindromes.append(product)
+n = 0
+for a in range(999, 100, -1):
+    for b in range(a, 100, -1):
+        x = a * b
+        if x > n:
+            s = str(a * b)
+            if s == s[::-1]:
+                 n = a * b
+print(n)
 
 
-print(max(palindromes))
 
 
 

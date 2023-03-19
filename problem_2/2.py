@@ -8,24 +8,18 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 """
 
-sequence = [1,2]
+x = 1
+y = 1
+z = 0
+result = 0
 
-while True:
-    
-    num = sequence[-1] + sequence[-2]
+while z < 4_000_000:
+   z = (x+y)         
+   if z%2 == 0:
+       result = result + z
+   x = y
+   y = z
 
-    if num < 4_000_000:
-      sequence.append(num)
-    
-    else:
-       break
-
-total_sum = 0
-
-for i in sequence:
-   if i % 2 == 0:
-      total_sum += i
-
-print("answer: ", total_sum)  
+print(result)
 
 
