@@ -11,7 +11,7 @@ Project Euler is a series of challenging problems that require creative problem-
 - :heavy_check_mark: solve 10 problems (2/3/2023)
 - :heavy_check_mark: solve 20 problems (9/3/2023)
 - :ballot_box_with_check: solve 25 problems (15/3/2023)
-- :white_square_button: solve 30 problems
+- :heavy_check_mark: solve 30 problems (21/3/2023)
 - :white_square_button: solve 40 problems
 - :white_large_square: solve 50 problems
 - :white_square_button: solve 60 problems
